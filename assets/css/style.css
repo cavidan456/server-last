@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 70%;
+    margin: auto;
+}
+
+
+
+/*! droptovn hover menu */
+.dropdown-menu{
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+/* !navbar color */
+
+nav a{
+    color: #a9a9a9;
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+
+
+/*! buttons  */
+
+#register{
+    border: 1px solid #7CBD1E;
+    background: transparent;
+    padding: 5px 15px;
+    color: #fff;
+    transition-duration: .5s;
+}
+
+#register:hover{
+    background-color: #7CBD1E;
+}
+
+#login{
+    background-color: #7CBD1E;
+    border: 1px solid #7CBD1E;
+    padding: 5px 15px;
+    color: #fff;
+    transition-duration: .5s;
+}
+
+#login:hover{
+    background-color: #5b8c15;
+}
+
+
+/* main  */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    background-color: #f4f4f4;
+}
+
+/* ! support section start */
+
+#support{
+    background-image: url(../media/hero_bg_2.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+    background-position: 50%;
+}
+.support-background{
+    width: 100%;
+    min-height: 600px;
+    background-color: rgba(0 ,0 ,0 , .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-content{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.support-content h1{
+    font-size: 54px;
+    color: #fff;
+}
+
+#downland{
+    padding: 10px 20px;
+    background-color: #7CBD1E;
+    border: 1px solid #7CBD1E;
+    color: #fff;
+    transition-duration: .5s;
+}
+
+#downland:hover{
+    background-color: #5b8c15;
+    border: 1px solid #5b8c15; 
+}
+
+#get-touch{
+    background: transparent;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    transition-duration: .5s;
+}
+
+#get-touch:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* support section finish */
+
+/* ! hosting section start */
+
+
+#hosting{
+    width: 100%;
+}
+
+.hosting-head{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.hosting-cart{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0 ,0 ,0 , .6);
+    padding: 20px;
+}
+
+.icons{
+    text-align: center;
+    font-size: 60px;
+    color: #7CBD1E;
+}
+
+.hosting-cart-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hosting-cart-text p{
+    color: #a9a9a9;
+}
+
+.hosting-cart-text button{
+    border: none;
+    background-color: #7CBD1E;
+    color: #fff;
+    padding: 5px 15px;
+    transition-duration: .5s;
+}
+
+.hosting-cart-text button:hover{
+    background-color: #5b8c15;
+}
+
+
+/* hosting section finish */
+
+
+/* ! client section start */
+
+#client{
+    width: 100%;
+    min-height: 500px;
+    background-image: url(../media/hero_bg_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.client-background{
+    background-color: rgba(0 ,0 ,0 , .6);
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.client-text{
+    color: #fff;
+}
+
+.client-text h1{
+    font-size: 84px;
+    font-weight: 300;
+}
+
+.client-text p{
+    font-size: 24px;
+}
+
+.client-text button{
+    border: none;
+    background-color: #7CBD1E;
+    color: #fff;
+    padding: 15px 40px;
+}
+
+.client-text button:hover{
+    background-color:#5b8c15 ;
+}
+
+#data h2{
+    text-align: center;
+}
+
+.data-cart{
+    border:1px solid gray;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.data-cart p{
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 17px;
+    color: gray;
+
+}
+
+.data-cart i{
+    font-size: 48px;
+}
+
+.data-cart:hover{
+    background-color: #5b8c15;
+    color: #fff;
+}
+
+.data-cart:hover p{
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    height: 45px;
+    background-color: #000;
+    color: gray;
+    text-align: center;
+}
